@@ -1,0 +1,420 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 09:08:22
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.28                                |7.4.20
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-03-16 08:53:30
+WP VERSION__________: 5.9.2
+DUP VERSION_________: 1.4.4
+DB__________________: 5.7.37
+DB TABLES___________: 13
+DB ROWS_____________: 241
+DB FILE SIZE________: 2.95MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.20 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.20
+DOC ROOT____________: "E:/itscompany/techwingsvn"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://techwingsvn.local/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/itscompany/techwingsvn/20220316_[HASH]_20220316085330_archive.zip"
+SIZE________________: 31.07MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/itscompany/techwingsvn/20220316_[HASH]_20220316085330_archive.zip"
+SIZE________________: 31.07MBFile timestamp set to Current: 2022-03-16 09:08:37
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 09:08:37 - RUNTIME: 15.1602 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:09:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.19 -- Build Server: 5.7.37
+FILE SIZE:	dup-database__[HASH].sql (750.84KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/itscompany/techwingsvn/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+bz_commentmeta: (0)
+bz_comments: (1)
+bz_duplicator_packages: (0)
+bz_links: (0)
+bz_options: (143)
+bz_postmeta: (21)
+bz_posts: (25)
+bz_term_relationships: (2)
+bz_term_taxonomy: (2)
+bz_termmeta: (0)
+bz_terms: (2)
+bz_usermeta: (20)
+bz_users: (1)
+Removed '39' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3334 sec.
+STEP-2 COMPLETE @ 09:09:48 - RUNTIME: 0.3562 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:10:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: ""
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/admin/web/techwings.vn/public_html"
+path_new______________: "E:/itscompany/techwingsvn"
+siteurl_______________: "http://techwingsvn.local"
+url_old_______________: "https://techwings.vn"
+url_new_______________: "http://techwingsvn.local"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "bz_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "bz_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "bz_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "bz_options"______________________________________[ROWS:   143][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_postmeta"_____________________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_posts"________________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_term_relationships"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "bz_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_usermeta"_____________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+
+EVALUATE TABLE: "bz_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/admin/web/techwings.vn/public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  2:"\/home\/admin\/web\/techwings.vn\/public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  3:"%2Fhome%2Fadmin%2Fweb%2Ftechwings.vn%2Fpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  4:"\home\admin\web\techwings.vn\public_html" ========> "E:/itscompany/techwingsvn"
+	SEARCH  5:"\\home\\admin\\web\\techwings.vn\\public_html" ===> "E:\/itscompany\/techwingsvn"
+	SEARCH  6:"%5Chome%5Cadmin%5Cweb%5Ctechwings.vn%5Cpublic_html" => "E%3A%2Fitscompany%2Ftechwingsvn"
+	SEARCH  7:"//techwings.vn" ==================================> "//techwingsvn.local"
+	SEARCH  8:"\/\/techwings.vn" ================================> "\/\/techwingsvn.local"
+	SEARCH  9:"%2F%2Ftechwings.vn" ==============================> "%2F%2Ftechwingsvn.local"
+	SEARCH 10:"//www.techwings.vn" ==============================> "//techwingsvn.local"
+	SEARCH 11:"\/\/www.techwings.vn" ============================> "\/\/techwingsvn.local"
+	SEARCH 12:"%2F%2Fwww.techwings.vn" ==========================> "%2F%2Ftechwingsvn.local"
+	SEARCH 13:"https://techwingsvn.local" =======================> "http://techwingsvn.local"
+	SEARCH 14:"https:\/\/techwingsvn.local" =====================> "http:\/\/techwingsvn.local"
+	SEARCH 15:"https%3A%2F%2Ftechwingsvn.local" =================> "http%3A%2F%2Ftechwingsvn.local"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:217 	|	 Cells:1362 
+UPDATED:	Tables:3 	|	 Rows:10 	|	 Cells:12 
+ERRORS:		0 
+RUNTIME:	0.101100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:10:44 - RUNTIME: 0.1870 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
