@@ -14,3 +14,6 @@ global $flatsome_opt;
 <?php wp_footer(); ?>
 </body>
 </html>
+
+
+

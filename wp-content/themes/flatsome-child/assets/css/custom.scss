@@ -1,5 +1,7 @@
 @import "../fonts/fontface";
 @import "common/mixin";
+@import "common/header";
+@import "common/footer";
 @import "common/homepage";
 
 .subtitle{
@@ -208,9 +210,19 @@ p.lead, a.lead {
     border-top: 0.5px dashed #0D47A1;
     padding: 25px 50px 25px 15px;
     position: relative;
-    font-size: 18px;
+    font-size: 110%;
     font-weight: 700;
 }
-.accordion-inner{
-    font-size: 17px;
+.accordion {
+    font-size: .75em;
+    border-bottom: 1px dashed #0D47A1;
+    font-weight: bold;
 }
+.accordion-inner{
+    font-size: 1em;
+}
+strong{
+    font-weight: bolder;
+}
+@import "common/howwork";
+@import "common/responsive";
